@@ -1,8 +1,5 @@
 import './App.css';
-import Func from './Components/Func';
-import ClassCompo from './Components/ClassCompo';
-import Propsprac from './Components/Propsprac';
-import Stateprac from './Components/Stateprac';
+import Handleform from './Components/Handleform';
 function App()
 {
    return(
@@ -11,7 +8,9 @@ function App()
         {/* <Func/>
         <ClassCompo/> */}
         {/* <Propsprac name="Devesh Sharma" email="sdevesh890@gmail.com"/> */}
-        <Stateprac/>
+        {/* <Stateprac/> */}
+        {/* <Getinput/> */}
+         <Handleform/>
        </div>
    );
 }
