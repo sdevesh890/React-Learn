@@ -1,5 +1,6 @@
 import './App.css';
 import Handleform from './Components/Handleform';
+import Validform from './Components/Validform';
 function App()
 {
    return(
@@ -10,7 +11,8 @@ function App()
         {/* <Propsprac name="Devesh Sharma" email="sdevesh890@gmail.com"/> */}
         {/* <Stateprac/> */}
         {/* <Getinput/> */}
-         <Handleform/>
+        {/* <Handleform/> */}
+        <Validform/>
        </div>
    );
 }
