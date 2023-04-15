@@ -1,8 +1,12 @@
 import './App.css';
-import Handleform from './Components/Handleform';
-import Validform from './Components/Validform';
+import Constructor from './LCM/Constructor';
+import Render from './LCM/Render';
+import ComponentDidmount from './LCM/ComponentDidmount';
+import Componentdidupdate from './LCM/Componentdidupdate';
+import Componentshoulupdate from './LCM/Componentshouldupdate';
 function App()
 {
+    
    return(
        <div>
         <h1>Hello React-learn</h1>
@@ -12,8 +16,14 @@ function App()
         {/* <Stateprac/> */}
         {/* <Getinput/> */}
         {/* <Handleform/> */}
-        <Validform/>
+        {/* <Validform/> */}
+        {/* <Constructor/> */}
+        {/* <Render/> */}
+        {/* <ComponentDidmount/> */}
+        {/* <Componentdidupdate/> */}
+        <Componentshoulupdate/>
        </div>
+
    );
 }
 
