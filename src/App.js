@@ -1,12 +1,11 @@
 import './App.css';
-import UseEffec from './Hooks/UseEffec';
+import Arraymap from './Components/Arraymap';
 function App()
 {
     
    return(
-       <div>
-       <h1>Rect Home</h1>
-       <UseEffec/>
+       <div className='App'>
+       <Arraymap/>
        </div>
 
    );
